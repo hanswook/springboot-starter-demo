@@ -515,3 +515,469 @@ Verify the connector's configuration, identify and stop any process that's liste
 2018-12-19 16:58:56.530  INFO 1332 --- [http-nio-8088-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2018-12-19 16:58:56.530  INFO 1332 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2018-12-19 16:58:56.533  INFO 1332 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2018-12-19 17:51:07.741  INFO 6768 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Starting SpingbootDemoApplication on DESKTOP-9L4SDH1 with PID 6768 (E:\java_project\hans\demo\spingbootDemo\target\classes started by hxxx1 in E:\java_project\hans\demo\spingbootDemo)
+2018-12-19 17:51:07.747  INFO 6768 --- [restartedMain] c.h.s.SpingbootDemoApplication           : No active profile set, falling back to default profiles: default
+2018-12-19 17:51:07.776  INFO 6768 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-19 17:51:07.777  INFO 6768 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-19 17:51:08.529  INFO 6768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-12-19 17:51:08.544  INFO 6768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-19 17:51:08.544  INFO 6768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-19 17:51:08.549  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2018-12-19 17:51:08.549  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-19 17:51:08.549  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-19 17:51:08.552  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2018-12-19 17:51:08.638  INFO 6768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring embedded WebApplicationContext
+2018-12-19 17:51:08.638  INFO 6768 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 861 ms
+2018-12-19 17:51:08.764  INFO 6768 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-19 17:51:08.831  WARN 6768 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-12-19 17:51:08.928  INFO 6768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-19 17:51:08.961  INFO 6768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/hans'
+2018-12-19 17:51:08.963  INFO 6768 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Started SpingbootDemoApplication in 1.439 seconds (JVM running for 2.039)
+2018-12-19 17:51:21.292  INFO 6768 --- [http-nio-8088-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-19 17:51:21.292  INFO 6768 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-19 17:51:21.295  INFO 6768 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2018-12-19 17:51:53.843  INFO 6768 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-19 17:51:53.969  INFO 6768 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Starting SpingbootDemoApplication on DESKTOP-9L4SDH1 with PID 6768 (E:\java_project\hans\demo\spingbootDemo\target\classes started by hxxx1 in E:\java_project\hans\demo\spingbootDemo)
+2018-12-19 17:51:53.970  INFO 6768 --- [restartedMain] c.h.s.SpingbootDemoApplication           : No active profile set, falling back to default profiles: default
+2018-12-19 17:51:54.165  INFO 6768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-12-19 17:51:54.166  INFO 6768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-19 17:51:54.166  INFO 6768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-19 17:51:54.166  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2018-12-19 17:51:54.166  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-19 17:51:54.166  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-19 17:51:54.167  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2018-12-19 17:51:54.186  INFO 6768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring embedded WebApplicationContext
+2018-12-19 17:51:54.186  INFO 6768 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 215 ms
+2018-12-19 17:51:54.228  INFO 6768 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-19 17:51:54.247  WARN 6768 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-12-19 17:51:54.270  INFO 6768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-19 17:51:54.281  INFO 6768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/hans'
+2018-12-19 17:51:54.281  INFO 6768 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Started SpingbootDemoApplication in 0.327 seconds (JVM running for 47.357)
+2018-12-19 17:51:54.282  INFO 6768 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-12-19 17:51:58.734  INFO 6768 --- [Thread-17] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-19 17:51:58.898  INFO 6768 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Starting SpingbootDemoApplication on DESKTOP-9L4SDH1 with PID 6768 (E:\java_project\hans\demo\spingbootDemo\target\classes started by hxxx1 in E:\java_project\hans\demo\spingbootDemo)
+2018-12-19 17:51:58.899  INFO 6768 --- [restartedMain] c.h.s.SpingbootDemoApplication           : No active profile set, falling back to default profiles: default
+2018-12-19 17:51:59.100  INFO 6768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-12-19 17:51:59.101  INFO 6768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-19 17:51:59.101  INFO 6768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-19 17:51:59.101  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2018-12-19 17:51:59.101  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-19 17:51:59.101  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-19 17:51:59.101  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2018-12-19 17:51:59.130  INFO 6768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring embedded WebApplicationContext
+2018-12-19 17:51:59.130  INFO 6768 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 230 ms
+2018-12-19 17:51:59.165  INFO 6768 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-19 17:51:59.182  WARN 6768 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-12-19 17:51:59.206  INFO 6768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-19 17:51:59.216  INFO 6768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/hans'
+2018-12-19 17:51:59.217  INFO 6768 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Started SpingbootDemoApplication in 0.334 seconds (JVM running for 52.292)
+2018-12-19 17:51:59.218  INFO 6768 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-12-19 17:52:00.336  INFO 6768 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-19 17:52:00.337  INFO 6768 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-19 17:52:00.343  INFO 6768 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2018-12-19 17:52:00.427 ERROR 6768 --- [http-nio-8088-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/hans] threw exception [Request processing failed; nested exception is java.lang.ArithmeticException: / by zero] with root cause
+
+java.lang.ArithmeticException: / by zero
+	at com.hans.spingbootDemo.controller.ErrorController.error(ErrorController.java:13) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.13.jar:9.0.13]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+
+2018-12-19 17:52:29.946  INFO 6768 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-19 17:52:30.123  INFO 6768 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Starting SpingbootDemoApplication on DESKTOP-9L4SDH1 with PID 6768 (E:\java_project\hans\demo\spingbootDemo\target\classes started by hxxx1 in E:\java_project\hans\demo\spingbootDemo)
+2018-12-19 17:52:30.123  INFO 6768 --- [restartedMain] c.h.s.SpingbootDemoApplication           : No active profile set, falling back to default profiles: default
+2018-12-19 17:52:30.307  INFO 6768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-12-19 17:52:30.309  INFO 6768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-19 17:52:30.309  INFO 6768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-19 17:52:30.309  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2018-12-19 17:52:30.309  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-19 17:52:30.309  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-19 17:52:30.309  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2018-12-19 17:52:30.327  INFO 6768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring embedded WebApplicationContext
+2018-12-19 17:52:30.327  INFO 6768 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 203 ms
+2018-12-19 17:52:30.359  INFO 6768 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-19 17:52:30.375  WARN 6768 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-12-19 17:52:30.398  INFO 6768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-19 17:52:30.408  INFO 6768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/hans'
+2018-12-19 17:52:30.408  INFO 6768 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Started SpingbootDemoApplication in 0.301 seconds (JVM running for 83.484)
+2018-12-19 17:52:30.409  INFO 6768 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-12-19 17:57:29.662  INFO 6768 --- [Thread-29] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-19 17:57:29.811  INFO 6768 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Starting SpingbootDemoApplication on DESKTOP-9L4SDH1 with PID 6768 (E:\java_project\hans\demo\spingbootDemo\target\classes started by hxxx1 in E:\java_project\hans\demo\spingbootDemo)
+2018-12-19 17:57:29.811  INFO 6768 --- [restartedMain] c.h.s.SpingbootDemoApplication           : No active profile set, falling back to default profiles: default
+2018-12-19 17:57:29.993  INFO 6768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-12-19 17:57:29.994  INFO 6768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-19 17:57:29.994  INFO 6768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-19 17:57:29.994  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2018-12-19 17:57:29.994  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-19 17:57:29.995  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-19 17:57:29.995  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2018-12-19 17:57:30.012  INFO 6768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring embedded WebApplicationContext
+2018-12-19 17:57:30.012  INFO 6768 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 200 ms
+2018-12-19 17:57:30.043  INFO 6768 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-19 17:57:30.059  WARN 6768 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-12-19 17:57:30.081  INFO 6768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-19 17:57:30.091  INFO 6768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/hans'
+2018-12-19 17:57:30.091  INFO 6768 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Started SpingbootDemoApplication in 0.295 seconds (JVM running for 383.166)
+2018-12-19 17:57:30.092  INFO 6768 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-12-19 17:57:33.532  INFO 6768 --- [Thread-35] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-19 17:57:33.678  INFO 6768 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Starting SpingbootDemoApplication on DESKTOP-9L4SDH1 with PID 6768 (E:\java_project\hans\demo\spingbootDemo\target\classes started by hxxx1 in E:\java_project\hans\demo\spingbootDemo)
+2018-12-19 17:57:33.678  INFO 6768 --- [restartedMain] c.h.s.SpingbootDemoApplication           : No active profile set, falling back to default profiles: default
+2018-12-19 17:57:33.855  INFO 6768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-12-19 17:57:33.855  INFO 6768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-19 17:57:33.856  INFO 6768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-19 17:57:33.856  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2018-12-19 17:57:33.856  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-19 17:57:33.856  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-19 17:57:33.856  INFO 6768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2018-12-19 17:57:33.875  INFO 6768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring embedded WebApplicationContext
+2018-12-19 17:57:33.875  INFO 6768 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 195 ms
+2018-12-19 17:57:33.912  INFO 6768 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-19 17:57:33.930  WARN 6768 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-12-19 17:57:33.953  INFO 6768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-19 17:57:33.965  INFO 6768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/hans'
+2018-12-19 17:57:33.965  INFO 6768 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Started SpingbootDemoApplication in 0.319 seconds (JVM running for 387.04)
+2018-12-19 17:57:33.997  INFO 6768 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration:
+      Did not match:
+         - ErrorTemplate Missing found template from org.springframework.boot.autoconfigure.thymeleaf.ThymeleafTemplateAvailabilityProvider@1fe4a7a (ErrorMvcAutoConfiguration.ErrorTemplateMissingCondition)
+      Matched:
+         - @ConditionalOnProperty (server.error.whitelabel.enabled) matched (OnPropertyCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2018-12-19 17:58:36.143  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Starting SpingbootDemoApplication on DESKTOP-9L4SDH1 with PID 12480 (E:\java_project\hans\demo\spingbootDemo\target\classes started by hxxx1 in E:\java_project\hans\demo\spingbootDemo)
+2018-12-19 17:58:36.145  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : No active profile set, falling back to default profiles: default
+2018-12-19 17:58:36.172  INFO 12480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-19 17:58:36.172  INFO 12480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-19 17:58:36.925  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-12-19 17:58:36.937  INFO 12480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-19 17:58:36.938  INFO 12480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-19 17:58:36.942  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2018-12-19 17:58:36.942  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-19 17:58:36.942  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-19 17:58:36.945  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2018-12-19 17:58:37.026  INFO 12480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring embedded WebApplicationContext
+2018-12-19 17:58:37.026  INFO 12480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 854 ms
+2018-12-19 17:58:37.154  INFO 12480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-19 17:58:37.224  WARN 12480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-12-19 17:58:37.322  INFO 12480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-19 17:58:37.353  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/hans'
+2018-12-19 17:58:37.400  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Started SpingbootDemoApplication in 1.456 seconds (JVM running for 2.026)
+2018-12-19 17:58:42.395  INFO 12480 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-19 17:58:42.395  INFO 12480 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-19 17:58:42.398  INFO 12480 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2018-12-19 17:58:42.414  WARN 12480 --- [http-nio-8088-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.ArithmeticException: / by zero]
+2018-12-19 18:07:54.405  INFO 12480 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:07:54.545  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Starting SpingbootDemoApplication on DESKTOP-9L4SDH1 with PID 12480 (E:\java_project\hans\demo\spingbootDemo\target\classes started by hxxx1 in E:\java_project\hans\demo\spingbootDemo)
+2018-12-19 18:07:54.545  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : No active profile set, falling back to default profiles: default
+2018-12-19 18:07:54.748  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-12-19 18:07:54.749  INFO 12480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-19 18:07:54.749  INFO 12480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-19 18:07:54.749  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2018-12-19 18:07:54.749  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-19 18:07:54.749  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-19 18:07:54.749  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2018-12-19 18:07:54.771  INFO 12480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring embedded WebApplicationContext
+2018-12-19 18:07:54.771  INFO 12480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 225 ms
+2018-12-19 18:07:54.813  INFO 12480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:07:54.837  WARN 12480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-12-19 18:07:54.865  INFO 12480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-19 18:07:54.877  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/hans'
+2018-12-19 18:07:54.878  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Started SpingbootDemoApplication in 0.35 seconds (JVM running for 559.504)
+2018-12-19 18:07:54.881  INFO 12480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-12-19 18:08:37.790  INFO 12480 --- [Thread-17] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:08:38.377  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Starting SpingbootDemoApplication on DESKTOP-9L4SDH1 with PID 12480 (E:\java_project\hans\demo\spingbootDemo\target\classes started by hxxx1 in E:\java_project\hans\demo\spingbootDemo)
+2018-12-19 18:08:38.377  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : No active profile set, falling back to default profiles: default
+2018-12-19 18:08:38.624  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-12-19 18:08:38.625  INFO 12480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-19 18:08:38.625  INFO 12480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-19 18:08:38.625  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2018-12-19 18:08:38.625  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-19 18:08:38.625  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-19 18:08:38.626  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2018-12-19 18:08:38.655  INFO 12480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring embedded WebApplicationContext
+2018-12-19 18:08:38.656  INFO 12480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 277 ms
+2018-12-19 18:08:38.700  INFO 12480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:08:38.722  WARN 12480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-12-19 18:08:38.793  INFO 12480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-19 18:08:38.810  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/hans'
+2018-12-19 18:08:38.810  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Started SpingbootDemoApplication in 0.631 seconds (JVM running for 603.436)
+2018-12-19 18:08:38.812  INFO 12480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-12-19 18:09:38.757  INFO 12480 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:09:38.919  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Starting SpingbootDemoApplication on DESKTOP-9L4SDH1 with PID 12480 (E:\java_project\hans\demo\spingbootDemo\target\classes started by hxxx1 in E:\java_project\hans\demo\spingbootDemo)
+2018-12-19 18:09:38.919  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : No active profile set, falling back to default profiles: default
+2018-12-19 18:09:39.116  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-12-19 18:09:39.116  INFO 12480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-19 18:09:39.116  INFO 12480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-19 18:09:39.117  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2018-12-19 18:09:39.117  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-19 18:09:39.117  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-19 18:09:39.117  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2018-12-19 18:09:39.137  INFO 12480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring embedded WebApplicationContext
+2018-12-19 18:09:39.137  INFO 12480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 217 ms
+2018-12-19 18:09:39.172  INFO 12480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:09:39.193  WARN 12480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-12-19 18:09:39.222  INFO 12480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-19 18:09:39.234  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/hans'
+2018-12-19 18:09:39.234  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Started SpingbootDemoApplication in 0.332 seconds (JVM running for 663.86)
+2018-12-19 18:09:39.235  INFO 12480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-12-19 18:09:59.912  INFO 12480 --- [Thread-29] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:10:00.344  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Starting SpingbootDemoApplication on DESKTOP-9L4SDH1 with PID 12480 (E:\java_project\hans\demo\spingbootDemo\target\classes started by hxxx1 in E:\java_project\hans\demo\spingbootDemo)
+2018-12-19 18:10:00.344  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : No active profile set, falling back to default profiles: default
+2018-12-19 18:10:00.684  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-12-19 18:10:00.685  INFO 12480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-19 18:10:00.685  INFO 12480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-19 18:10:00.685  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2018-12-19 18:10:00.685  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-19 18:10:00.685  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-19 18:10:00.686  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2018-12-19 18:10:00.708  INFO 12480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring embedded WebApplicationContext
+2018-12-19 18:10:00.708  INFO 12480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 363 ms
+2018-12-19 18:10:00.763  INFO 12480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:10:00.781  WARN 12480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-12-19 18:10:00.821  INFO 12480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-19 18:10:00.833  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/hans'
+2018-12-19 18:10:00.833  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Started SpingbootDemoApplication in 0.513 seconds (JVM running for 685.458)
+2018-12-19 18:10:00.833  INFO 12480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-12-19 18:10:24.332  INFO 12480 --- [Thread-35] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:10:24.484  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Starting SpingbootDemoApplication on DESKTOP-9L4SDH1 with PID 12480 (E:\java_project\hans\demo\spingbootDemo\target\classes started by hxxx1 in E:\java_project\hans\demo\spingbootDemo)
+2018-12-19 18:10:24.485  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : No active profile set, falling back to default profiles: default
+2018-12-19 18:10:24.669  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-12-19 18:10:24.670  INFO 12480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-19 18:10:24.670  INFO 12480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-19 18:10:24.671  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2018-12-19 18:10:24.671  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-19 18:10:24.671  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-19 18:10:24.671  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2018-12-19 18:10:24.691  INFO 12480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring embedded WebApplicationContext
+2018-12-19 18:10:24.692  INFO 12480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 206 ms
+2018-12-19 18:10:24.728  INFO 12480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:10:24.750  WARN 12480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-12-19 18:10:24.781  INFO 12480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-19 18:10:24.791  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/hans'
+2018-12-19 18:10:24.792  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Started SpingbootDemoApplication in 0.35 seconds (JVM running for 709.417)
+2018-12-19 18:10:24.793  INFO 12480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-12-19 18:10:34.752  INFO 12480 --- [Thread-41] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:10:34.898  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Starting SpingbootDemoApplication on DESKTOP-9L4SDH1 with PID 12480 (E:\java_project\hans\demo\spingbootDemo\target\classes started by hxxx1 in E:\java_project\hans\demo\spingbootDemo)
+2018-12-19 18:10:34.898  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : No active profile set, falling back to default profiles: default
+2018-12-19 18:10:35.102  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-12-19 18:10:35.103  INFO 12480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-19 18:10:35.103  INFO 12480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-19 18:10:35.103  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2018-12-19 18:10:35.103  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-19 18:10:35.104  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-19 18:10:35.104  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2018-12-19 18:10:35.122  INFO 12480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring embedded WebApplicationContext
+2018-12-19 18:10:35.122  INFO 12480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 223 ms
+2018-12-19 18:10:35.154  INFO 12480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:10:35.168  WARN 12480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-12-19 18:10:35.192  INFO 12480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-19 18:10:35.202  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/hans'
+2018-12-19 18:10:35.202  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Started SpingbootDemoApplication in 0.333 seconds (JVM running for 719.828)
+2018-12-19 18:10:35.203  INFO 12480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-12-19 18:11:09.796  INFO 12480 --- [Thread-47] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:11:09.913  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Starting SpingbootDemoApplication on DESKTOP-9L4SDH1 with PID 12480 (E:\java_project\hans\demo\spingbootDemo\target\classes started by hxxx1 in E:\java_project\hans\demo\spingbootDemo)
+2018-12-19 18:11:09.913  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : No active profile set, falling back to default profiles: default
+2018-12-19 18:11:10.093  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-12-19 18:11:10.094  INFO 12480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-19 18:11:10.094  INFO 12480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-19 18:11:10.094  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2018-12-19 18:11:10.094  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-19 18:11:10.094  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-19 18:11:10.095  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2018-12-19 18:11:10.114  INFO 12480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring embedded WebApplicationContext
+2018-12-19 18:11:10.114  INFO 12480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 200 ms
+2018-12-19 18:11:10.145  INFO 12480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:11:10.163  WARN 12480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-12-19 18:11:10.189  INFO 12480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-19 18:11:10.200  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/hans'
+2018-12-19 18:11:10.201  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Started SpingbootDemoApplication in 0.303 seconds (JVM running for 754.826)
+2018-12-19 18:11:10.202  INFO 12480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-12-19 18:16:28.059  INFO 12480 --- [Thread-53] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:16:28.231  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Starting SpingbootDemoApplication on DESKTOP-9L4SDH1 with PID 12480 (E:\java_project\hans\demo\spingbootDemo\target\classes started by hxxx1 in E:\java_project\hans\demo\spingbootDemo)
+2018-12-19 18:16:28.231  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : No active profile set, falling back to default profiles: default
+2018-12-19 18:16:28.453  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-12-19 18:16:28.454  INFO 12480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-19 18:16:28.454  INFO 12480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-19 18:16:28.454  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2018-12-19 18:16:28.454  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-19 18:16:28.454  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-19 18:16:28.455  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2018-12-19 18:16:28.475  INFO 12480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring embedded WebApplicationContext
+2018-12-19 18:16:28.475  INFO 12480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 243 ms
+2018-12-19 18:16:28.512  INFO 12480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:16:28.530  WARN 12480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-12-19 18:16:28.553  INFO 12480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-19 18:16:28.563  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/hans'
+2018-12-19 18:16:28.564  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Started SpingbootDemoApplication in 0.354 seconds (JVM running for 1073.189)
+2018-12-19 18:16:28.565  INFO 12480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-12-19 18:17:55.411  INFO 12480 --- [Thread-59] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:17:55.527  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Starting SpingbootDemoApplication on DESKTOP-9L4SDH1 with PID 12480 (E:\java_project\hans\demo\spingbootDemo\target\classes started by hxxx1 in E:\java_project\hans\demo\spingbootDemo)
+2018-12-19 18:17:55.528  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : No active profile set, falling back to default profiles: default
+2018-12-19 18:17:55.721  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-12-19 18:17:55.721  INFO 12480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-19 18:17:55.721  INFO 12480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-19 18:17:55.721  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2018-12-19 18:17:55.722  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-19 18:17:55.722  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-19 18:17:55.722  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2018-12-19 18:17:55.741  INFO 12480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring embedded WebApplicationContext
+2018-12-19 18:17:55.741  INFO 12480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 212 ms
+2018-12-19 18:17:55.774  INFO 12480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:17:55.791  WARN 12480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-12-19 18:17:55.816  INFO 12480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-19 18:17:55.826  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/hans'
+2018-12-19 18:17:55.826  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Started SpingbootDemoApplication in 0.312 seconds (JVM running for 1160.452)
+2018-12-19 18:17:55.827  INFO 12480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-12-19 18:22:53.687  INFO 12480 --- [Thread-65] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:22:53.828  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Starting SpingbootDemoApplication on DESKTOP-9L4SDH1 with PID 12480 (E:\java_project\hans\demo\spingbootDemo\target\classes started by hxxx1 in E:\java_project\hans\demo\spingbootDemo)
+2018-12-19 18:22:53.828  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : No active profile set, falling back to default profiles: default
+2018-12-19 18:22:54.036  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-12-19 18:22:54.037  INFO 12480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-19 18:22:54.037  INFO 12480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-19 18:22:54.037  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2018-12-19 18:22:54.037  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-19 18:22:54.037  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-19 18:22:54.037  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2018-12-19 18:22:54.057  INFO 12480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring embedded WebApplicationContext
+2018-12-19 18:22:54.058  INFO 12480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 229 ms
+2018-12-19 18:22:54.103  INFO 12480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:22:54.122  WARN 12480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-12-19 18:22:54.150  INFO 12480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-19 18:22:54.161  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/hans'
+2018-12-19 18:22:54.161  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Started SpingbootDemoApplication in 0.348 seconds (JVM running for 1458.787)
+2018-12-19 18:22:54.162  INFO 12480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-12-19 18:38:20.550  INFO 12480 --- [Thread-71] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:38:20.658  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Starting SpingbootDemoApplication on DESKTOP-9L4SDH1 with PID 12480 (E:\java_project\hans\demo\spingbootDemo\target\classes started by hxxx1 in E:\java_project\hans\demo\spingbootDemo)
+2018-12-19 18:38:20.659  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : No active profile set, falling back to default profiles: default
+2018-12-19 18:38:20.847  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-12-19 18:38:20.847  INFO 12480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-19 18:38:20.847  INFO 12480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-19 18:38:20.847  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2018-12-19 18:38:20.847  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-19 18:38:20.848  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-19 18:38:20.848  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2018-12-19 18:38:20.866  INFO 12480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring embedded WebApplicationContext
+2018-12-19 18:38:20.867  INFO 12480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 207 ms
+2018-12-19 18:38:20.897  INFO 12480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:38:20.913  WARN 12480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-12-19 18:38:20.958  INFO 12480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-19 18:38:20.969  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/hans'
+2018-12-19 18:38:20.969  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Started SpingbootDemoApplication in 0.326 seconds (JVM running for 2385.595)
+2018-12-19 18:38:20.970  INFO 12480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-12-19 18:39:41.343  INFO 12480 --- [Thread-77] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:39:41.482  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Starting SpingbootDemoApplication on DESKTOP-9L4SDH1 with PID 12480 (E:\java_project\hans\demo\spingbootDemo\target\classes started by hxxx1 in E:\java_project\hans\demo\spingbootDemo)
+2018-12-19 18:39:41.482  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : No active profile set, falling back to default profiles: default
+2018-12-19 18:39:41.665  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-12-19 18:39:41.666  INFO 12480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-19 18:39:41.666  INFO 12480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-19 18:39:41.666  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2018-12-19 18:39:41.666  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-19 18:39:41.666  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-19 18:39:41.666  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2018-12-19 18:39:41.684  INFO 12480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring embedded WebApplicationContext
+2018-12-19 18:39:41.685  INFO 12480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 202 ms
+2018-12-19 18:39:41.715  INFO 12480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:39:41.729  WARN 12480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-12-19 18:39:41.752  INFO 12480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-19 18:39:41.761  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/hans'
+2018-12-19 18:39:41.761  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Started SpingbootDemoApplication in 0.293 seconds (JVM running for 2466.388)
+2018-12-19 18:39:41.763  INFO 12480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-12-19 18:41:21.293  INFO 12480 --- [Thread-83] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:41:21.433  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Starting SpingbootDemoApplication on DESKTOP-9L4SDH1 with PID 12480 (E:\java_project\hans\demo\spingbootDemo\target\classes started by hxxx1 in E:\java_project\hans\demo\spingbootDemo)
+2018-12-19 18:41:21.433  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : No active profile set, falling back to default profiles: default
+2018-12-19 18:41:21.618  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2018-12-19 18:41:21.618  INFO 12480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-19 18:41:21.618  INFO 12480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-19 18:41:21.618  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2018-12-19 18:41:21.618  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-19 18:41:21.619  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-19 18:41:21.619  INFO 12480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2018-12-19 18:41:21.637  INFO 12480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/hans]   : Initializing Spring embedded WebApplicationContext
+2018-12-19 18:41:21.638  INFO 12480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 203 ms
+2018-12-19 18:41:21.666  INFO 12480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-19 18:41:21.681  WARN 12480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-12-19 18:41:21.703  INFO 12480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-19 18:41:21.713  INFO 12480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/hans'
+2018-12-19 18:41:21.713  INFO 12480 --- [restartedMain] c.h.s.SpingbootDemoApplication           : Started SpingbootDemoApplication in 0.319 seconds (JVM running for 2566.339)
+2018-12-19 18:41:21.714  INFO 12480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

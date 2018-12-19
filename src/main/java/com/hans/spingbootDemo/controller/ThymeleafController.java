@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ThymeleafController {
 
 
-
     @RequestMapping("/index")
     public String index(ModelMap map) {
         map.addAttribute("name", "thymeleaf-hans");
@@ -22,5 +21,6 @@ public class ThymeleafController {
     public String center() {
         return "thymeleaf/center/center";
     }
+
 
 }
