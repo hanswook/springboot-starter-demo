@@ -6,7 +6,7 @@ import javax.persistence.*;
 @Table(name = "sys_user")
 public class SysUser {
     @Id
-    private Integer id;
+    private String id;
 
     private String username;
 
@@ -20,17 +20,17 @@ public class SysUser {
     private Integer sex;
 
     /**
-     * 1:java开发
-     * 2:前端开发
-     * 3:大数据开发
-     * 4：ios开发
-     * 5：android开发
-     * 6：linux开发
-     * 7：php开发
-     * 8：.net开发
-     * 9：c/c++开发
-     * 10：学生
-     * 11：其他
+     * 1:java开发 
+2:前端开发
+3:大数据开发
+4：ios开发
+5：android开发
+6：linux开发
+7：php开发
+8：.net开发
+9：c/c++开发
+10：学生
+11：其他
      */
     private Integer job;
 
@@ -63,14 +63,14 @@ public class SysUser {
     /**
      * @return id
      */
-    public Integer getId() {
+    public String getId() {
         return id;
     }
 
     /**
      * @param id
      */
-    public void setId(Integer id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -135,58 +135,58 @@ public class SysUser {
     }
 
     /**
-     * 获取1:java开发
-     * 2:前端开发
-     * 3:大数据开发
-     * 4：ios开发
-     * 5：android开发
-     * 6：linux开发
-     * 7：php开发
-     * 8：.net开发
-     * 9：c/c++开发
-     * 10：学生
-     * 11：其他
+     * 获取1:java开发 
+2:前端开发
+3:大数据开发
+4：ios开发
+5：android开发
+6：linux开发
+7：php开发
+8：.net开发
+9：c/c++开发
+10：学生
+11：其他
      *
-     * @return job - 1:java开发
-     * 2:前端开发
-     * 3:大数据开发
-     * 4：ios开发
-     * 5：android开发
-     * 6：linux开发
-     * 7：php开发
-     * 8：.net开发
-     * 9：c/c++开发
-     * 10：学生
-     * 11：其他
+     * @return job - 1:java开发 
+2:前端开发
+3:大数据开发
+4：ios开发
+5：android开发
+6：linux开发
+7：php开发
+8：.net开发
+9：c/c++开发
+10：学生
+11：其他
      */
     public Integer getJob() {
         return job;
     }
 
     /**
-     * 设置1:java开发
-     * 2:前端开发
-     * 3:大数据开发
-     * 4：ios开发
-     * 5：android开发
-     * 6：linux开发
-     * 7：php开发
-     * 8：.net开发
-     * 9：c/c++开发
-     * 10：学生
-     * 11：其他
+     * 设置1:java开发 
+2:前端开发
+3:大数据开发
+4：ios开发
+5：android开发
+6：linux开发
+7：php开发
+8：.net开发
+9：c/c++开发
+10：学生
+11：其他
      *
-     * @param job 1:java开发
-     *            2:前端开发
-     *            3:大数据开发
-     *            4：ios开发
-     *            5：android开发
-     *            6：linux开发
-     *            7：php开发
-     *            8：.net开发
-     *            9：c/c++开发
-     *            10：学生
-     *            11：其他
+     * @param job 1:java开发 
+2:前端开发
+3:大数据开发
+4：ios开发
+5：android开发
+6：linux开发
+7：php开发
+8：.net开发
+9：c/c++开发
+10：学生
+11：其他
      */
     public void setJob(Integer job) {
         this.job = job;
