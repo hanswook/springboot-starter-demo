@@ -48,17 +48,23 @@ public class MyBatisCRUDController {
 
 
     @RequestMapping("/queryUserListPaged")
-    public HansJSONResult queryUserListPaged(Integer page){
-        SysUser user=new SysUser();
-        if (null==page){
-            page=1;
+    public HansJSONResult queryUserListPaged(Integer page) {
+        SysUser user = new SysUser();
+        if (null == page) {
+            page = 1;
         }
 
-        int pageSize=10;
+        int pageSize = 10;
 
         List<SysUser> sysUsers = userService.queryUserList(user, page, pageSize);
 
         return HansJSONResult.ok(sysUsers);
     }
 
+
+    @RequestMapping("/queryUserListByCustomize")
+    public HansJSONResult queryUserListByCustomize(String id) {
+        SysUser user = userService.queryUserListByCustomize(id);
+        return HansJSONResult.ok(user);
+    }
 }

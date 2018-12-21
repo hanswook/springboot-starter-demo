@@ -3,10 +3,10 @@ package com.hans.spingbootDemo.service.impl;
 import com.github.pagehelper.PageHelper;
 import com.hans.spingbootDemo.domain.SysUser;
 import com.hans.spingbootDemo.mapper.SysUserMapper;
+import com.hans.spingbootDemo.mapper.SysUserMapperCustomize;
 import com.hans.spingbootDemo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.thymeleaf.util.StringUtils;
 import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
@@ -16,6 +16,9 @@ public class UserServiceImpl implements UserService {
 
     @Autowired
     private SysUserMapper userMapper;
+
+    @Autowired
+    private SysUserMapperCustomize sysUserMapperCustomize;
 
     @Override
     public void saveUser(SysUser user) throws Exception {
@@ -56,5 +59,15 @@ public class UserServiceImpl implements UserService {
 
         return userList;
 
+    }
+
+    @Override
+    public SysUser queryUserListByCustomize(String id) {
+
+        List<SysUser> sysUsers = sysUserMapperCustomize.queryUserSimplyInfoById(id);
+        if (null != sysUsers && !sysUsers.isEmpty()) {
+            return sysUsers.get(0);
+        }
+        return null;
     }
 }
