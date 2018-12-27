@@ -61,10 +61,37 @@ public class MyBatisCRUDController {
         return HansJSONResult.ok(sysUsers);
     }
 
+    @RequestMapping("/queryById")
+    public HansJSONResult queryById(String id) {
+        System.out.println("queryById");
+        SysUser user = userService.queryUserById(id);
+        return HansJSONResult.ok(user);
+    }
+
 
     @RequestMapping("/queryUserListByCustomize")
     public HansJSONResult queryUserListByCustomize(String id) {
         SysUser user = userService.queryUserListByCustomize(id);
         return HansJSONResult.ok(user);
     }
+
+
+    @RequestMapping("/saveUserTransactional")
+    public HansJSONResult saveUserTransactional() {
+
+        String userId = sid.nextShort();
+
+        SysUser user = new SysUser();
+        user.setId(userId);
+        user.setUsername("hx" + new Date());
+        user.setPassword("aaa123");
+        user.setIsDelete(0);
+        user.setRegistTime(new Date());
+
+        userService.saveUserTransactional(user);
+
+        return HansJSONResult.ok("保存成功");
+    }
+
+
 }

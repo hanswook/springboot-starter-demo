@@ -18,4 +18,6 @@ public interface UserService {
 
     SysUser queryUserListByCustomize(String id);
 
+    void saveUserTransactional(SysUser user);
+
 }
